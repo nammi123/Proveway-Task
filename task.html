@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer Page</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YAY! It's BOGO</h1>
+
+        <div id="offer-1-card" class="offer-card" data-price="10.00" data-units="1">
+            <input type="radio" name="offer" id="offer-1" class="radio-btn" value="10.00">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <label for="offer-1" class="unit-label">1 Unit</label>
+                    <span class="discount-tag">10% Off</span>
+                    <span class="standard-label">Standard Price</span>
+                </div>
+                <div class="price-group">
+                    <span class="current-price">$10.00 USD</span>
+                    <span class="old-price">$24.00 USD</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="offer-2-card" class="offer-card" data-price="18.00" data-units="2">
+            <input type="radio" name="offer" id="offer-2" class="radio-btn" value="18.00" checked>
+            <div class="most-popular-tag">Most Popular</div>
+            <div class="card-header">
+                <div class="card-title-group">
+                    <label for="offer-2" class="unit-label">2 Unit</label>
+                    <span class="discount-tag">20% Off</span>
+                </div>
+                <div class="price-group">
+                    <span class="current-price">$18.00 USD</span>
+                    <span class="old-price">$24.00 USD</span>
+                </div>
+            </div>
+            <div class="variant-selectors">
+                <div class="variant-row">
+                    <label for="size-1">#1</label>
+                    <select id="size-1" name="size-1">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <select id="colour-1" name="colour-1">
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+                <div class="variant-row">
+                    <label for="size-2">#2</label>
+                    <select id="size-2" name="size-2">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <select id="colour-2" name="colour-2">
+                        <option value="Colour">Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="offer-3-card" class="offer-card" data-price="24.00" data-units="3">
+            <input type="radio" name="offer" id="offer-3" class="radio-btn" value="24.00">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <label for="offer-3" class="unit-label">3 Unit</label>
+                    <span class="discount-tag">30% Off</span>
+                </div>
+                <div class="price-group">
+                    <span class="current-price">$24.00 USD</span>
+                    <span class="old-price">$24.00 USD</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-details">
+            <div class="free-delivery">Free Delivery</div>
+            <div class="total-group">
+                <span class="total-label">Total : </span>
+                <span id="total-price" class="total-price">$18.00 USD</span>
+            </div>
+            <button class="add-to-cart-btn">
+                + <span class="add-to-cart-text">Add to Cart</span>
+            </button>
+        </div>
+
+        <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+<script src="task.js"></script>
+</body>
+</html>
