@@ -1,9 +1,9 @@
-BOGO Offer UI
+#BOGO Offer UI
 
 This project is a simple, responsive Buy One Get One (BOGO) Offer UI built using HTML, CSS, and JavaScript.
 It displays multiple unit-selection options with dynamic pricing updates and a clean, modern layout.
 
-Features
+#Features
 
 ✅ Responsive product offer layout
 
@@ -17,10 +17,12 @@ Features
 
 ✅ Add to Cart button with calculated total
 
-🛠️ Technologies Used
+#Technologies Used
 
 HTML5
 
 CSS3
 
 JavaScript 
+#Live Link
+https://nammi123.github.io/Proveway-Task/task.html
